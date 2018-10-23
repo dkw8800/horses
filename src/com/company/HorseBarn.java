@@ -1,6 +1,7 @@
 package com.company;
 
-public class HorseMethods extends HorseRunner {
+public class HorseBarn extends HorseRunner {
+
     public int findHorseSpace(String name) {
         for (int i = 0; i < this.spaces.length; i++) {
             if (this.spaces[i]!=null && name.equals(this.spaces[i].getName())) {
