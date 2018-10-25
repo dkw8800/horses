@@ -1,6 +1,12 @@
 package com.company;
 
 public class HorseBarn extends HorseRunner {
+public Horse[] spaces;
+
+public HorseBarn(Horse[] spaces)
+    {
+        this.spaces = spaces;
+    }
 
     public int findHorseSpace(String name) {
         for (int i = 0; i < this.spaces.length; i++) {

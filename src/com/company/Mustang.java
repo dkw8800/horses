@@ -10,12 +10,12 @@ public class Mustang implements Horse{
         this.weight = weight;
     }
 
-    public static String getName()
+    public String getName()
     {
         return this.name;
     }
 
-    public static String getWeight()
+    public int getWeight()
     {
         return this.weight;
     }
